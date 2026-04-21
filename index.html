@@ -19,13 +19,13 @@
         color: #d4af37;
       }
       section {
-        margin-bottom: 80px;
+        padding: 80px 0;
       }
       .team-container {
         display: flex;
         justify-content: space-between;
         gap: 20px;
-        margin-top: 20px;
+        margin-top: 40px;
       }
       .team-card {
         flex: 1;
@@ -51,13 +51,15 @@
         border: 1px solid #d4af37;
         padding: 25px;
         border-radius: 8px;
+        max-width: 1000px;
+        margin: 0 auto;
       }
     </style>
   </head>
   <body class="bg-black text-white">
 
    <section class="text-center py-16">
-     <img src="essavo_logo.jpg.webp" alt="Essavo Logo" class="mx-auto w-40 mb-g">
+     <img src="essavo_logo.jpg.webp" alt="Essavo Logo" class="mx-auto w-40 mb-6">
 
      <p class="max-w-2x1 mx-auto text-lg mt-4">
        A modern, reusable cleaning solution designed to replace traditional canned air while
@@ -80,7 +82,7 @@
       </p>
     </section>
 
-    <section class="narrow mb-20">
+    <section class="narrow">
       <h2>Our Solution</h2>
       <p>
         Essavo provides a reusable cleaning kit supported by a modern web experience that
@@ -134,7 +136,8 @@
     <section class="gold-section">
      <h2>Software Process Management (SCRUM)</h2>
 
-    <section>
+    <div class="space-y-10">
+    <div>
       <h2>Sprint 0</h2>
       <p><strong>Duration:</strong> 2026/01/08 - 2026/01/21</p>
       <p><strong>Completed tasks:</strong></p>
@@ -143,8 +146,8 @@
         <li>Establish a tech stack and setup development and communication environments.</li>
         <li>Outline Sprint 1 goals and divide roles.</li>
       </ul>
-    </section>
-    <section>
+    </div>
+    <div>
       <h2>Sprint 1</h2>
       <p><strong>Duration:</strong> 2026/01/22 - 2026/02/14</p>
       <p><strong>Completed tasks:</strong></p>
@@ -153,20 +156,23 @@
         <li>Listing, Image interaction, and email input for discount code features.</li>
         <li>Website deployed for initial launch.</li>
       </ul>
-    </section>
+    </div>
+    </div>
     </section>
 
     <section class="gold-section">
     <h2>Diagrams</h2>
 
-    <section>
+    <div class="space-y-10 text-center">
+    <div>
       <h2>Data Flow Diagram</h2>
-      <img src="Diagrams/Context_Level_DFD.png" alt="Data Flow Diagram">
-    </section>
-    <section>
+      <img src="Diagrams/Context_Level_DFD.png" alt="Data Flow Diagram" class="mx-auto">
+    </div>
+    <div>
       <h2>Sequence Diagram</h2>
-      <img src="Diagrams/Sequence_Diagram.png" alt="Sequence Diagram">
-    </section>
+      <img src="Diagrams/Sequence_Diagram.png" alt="Sequence Diagram" class="mx-auto">
+    </div>
+    </div>
     </section>
   </body>
 </html>
